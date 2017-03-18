@@ -2,7 +2,7 @@
   
 }
 .left-bg {
-  background-color:#a8429e;
+  background-color:#ffff00;
   height:100%;
   width:25%;
   position:absolute;
@@ -10,7 +10,7 @@
   left:0px;
 }
 .right-bg {
-  background-color:#ffe743;
+  background-color:#333333;
   height:100%;
   width:75%;
   position:absolute;
@@ -43,7 +43,7 @@
     display: inline-block;
     width: 50px;
     height: 62.5px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 0px;
     top: 0px;
 }
@@ -52,7 +52,7 @@
     display: inline-block;
     width: 25px;
     height: 37.5px;
-    background-color: #a8429e;
+    background-color: #ffff00;
     left: 25px;
     top: 25px;
 }
@@ -67,7 +67,7 @@
     display: inline-block;
     width: 137.5px;
     height: 62.5px;
-    background-color: #a8429e;
+    background-color: #ffff00;
     left: 0px;
     top: 0px;
 }
@@ -76,7 +76,7 @@
     display: inline-block;
     width: 25px;
     height: 37.5px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 0px;
     top: 25px;
 }
@@ -85,7 +85,7 @@
     display: inline-block;
     width: 12.5px;
     height: 25px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 50px;
     top: 0px;
 }
@@ -94,7 +94,7 @@
     display: inline-block;
     width: 25px;
     height: 12.5px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 50px;
     top: 25px;
 }
@@ -112,7 +112,7 @@
     display: inline-block;
     width: 12.5px;
     height: 37.5px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 75px;
     top: 25px;
 }
@@ -121,7 +121,7 @@
     display: inline-block;
     width: 25px;
     height: 37.5px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 112.5px;
     top: 0px;
 }
@@ -137,7 +137,7 @@
     display: inline-block;
     width: 50px;
     height: 62.5px;
-    background-color: #a8429e;
+    background-color: #ffff00;
     left: 125px;
     top: 0px;
 }
@@ -146,7 +146,7 @@
     display: inline-block;
     width: 12.5px;
     height: 37.5px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 137.5px;
     top: 25px;
 }
@@ -155,7 +155,7 @@
     display: inline-block;
     width: 12.5px;
     height: 12.5px;
-    background-color: #ffe743;
+    background-color: #333333;
     left: 125px;
     top: 25px;
 }
