@@ -1,5 +1,6 @@
 .overlay {
   // ... positioning
+  position:absolute;
   z-index: 4100;
 }
  
@@ -7,7 +8,7 @@
   content : '';
   position : absolute;
   top : 0px;
-  width : 100%;
+  width : 99%;
   height : 5px;
   background-color: #000;
   opacity : .1;
