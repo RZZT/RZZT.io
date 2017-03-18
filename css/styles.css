@@ -1,0 +1,158 @@
+.left-bg {
+  background-color:#782ebf;
+  height:100%;
+  width:25%;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+.right-bg {
+  background-color:#27aeb4;
+  height:100%;
+  width:75%;
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+.left-block {
+    height: 600px;
+    width: 200px;
+    position:absolute;
+    right:0px;
+    top:50%;
+}
+.right-block {
+    height: 300px;
+    width: 600px;
+    position:absolute;
+    left:0px;
+    top:50%;
+}
+
+
+
+
+.rzzt-logo1 {
+    position: relative;
+}
+.rzzt-logo1 > i {
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-color: #27aeb4;
+    left: 0px;
+    top: 0px;
+}
+.rzzt-logo1 > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #782ebf;
+    left: 100px;
+    top: 100px;
+}
+
+
+
+.rzzt-logo2 {
+    position: relative;
+}
+.rzzt-logo2 > i {
+    position: absolute;
+    display: inline-block;
+    width: 550px;
+    height: 250px;
+    background-color: #782ebf;
+    left: 0px;
+    top: 0px;
+}
+.rzzt-logo2 > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #27aeb4;
+    left: 0px;
+    top: 100px;
+}
+.rzzt-logo2 > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background-color: #27aeb4;
+    left: 200px;
+    top: 0px;
+}
+.rzzt-logo2 > i+i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: #27aeb4;
+    left: 200px;
+    top: 100px;
+}
+
+
+
+
+.rzzt-logo3 {
+    position: relative;
+}
+
+
+.rzzt-logo3 > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 150px;
+    background-color: #27aeb4;
+    left: 300px;
+    top: 100px;
+}
+.rzzt-logo3 > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #27aeb4;
+    left: 450px;
+    top: 0px;
+}
+
+
+
+
+.rzzt-logo4 {
+    position: relative;
+}
+.rzzt-logo4 > i {
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-color: #782ebf;
+    left: 500px;
+    top: 0px;
+}
+.rzzt-logo4 > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 150px;
+    background-color: #27aeb4;
+    left: 550px;
+    top: 100px;
+}
+.rzzt-logo4 > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #27aeb4;
+    left: 500px;
+    top: 100px;
+}
