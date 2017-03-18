@@ -17,6 +17,8 @@
   top:0px;
   right:0px;
 }
+
+
 .left-block {
     height: 75px;
     width: 50px;
@@ -24,6 +26,11 @@
     right:0px;
     top:80%;
 }
+
+
+
+
+
 .right-block {
     height: 75px;
     width: 150px;
@@ -31,6 +38,7 @@
     left:0px;
     top:80%;
 }
+
 
 
 
@@ -159,3 +167,7 @@
     left: 125px;
     top: 25px;
 }
+
+
+
+
