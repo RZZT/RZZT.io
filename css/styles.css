@@ -18,15 +18,15 @@
   right:0px;
 }
 .left-block {
-    height: 150px;
-    width: 100px;
+    height: 750px;
+    width: 50px;
     position:absolute;
     right:0px;
     top:50%;
 }
 .right-block {
-    height: 150px;
-    width: 300px;
+    height: 75px;
+    width: 150px;
     position:absolute;
     left:0px;
     top:50%;
@@ -41,8 +41,8 @@
 .rzzt-logo1 > i {
     position: absolute;
     display: inline-block;
-    width: 100px;
-    height: 125px;
+    width: 50px;
+    height: 62.5px;
     background-color: #27aeb4;
     left: 0px;
     top: 0px;
@@ -50,11 +50,11 @@
 .rzzt-logo1 > i+i {
     position: absolute;
     display: inline-block;
-    width: 50px;
-    height: 75px;
+    width: 25px;
+    height: 37.5px;
     background-color: #782ebf;
-    left: 50px;
-    top: 50px;
+    left: 25px;
+    top: 25px;
 }
 
 
@@ -65,8 +65,8 @@
 .rzzt-logo2 > i {
     position: absolute;
     display: inline-block;
-    width: 275px;
-    height: 125px;
+    width: 137.5px;
+    height: 62.5px;
     background-color: #782ebf;
     left: 0px;
     top: 0px;
@@ -74,29 +74,29 @@
 .rzzt-logo2 > i+i {
     position: absolute;
     display: inline-block;
-    width: 50px;
-    height: 75px;
+    width: 25px;
+    height: 37.5px;
     background-color: #27aeb4;
     left: 0px;
-    top: 50px;
+    top: 25px;
 }
 .rzzt-logo2 > i+i+i {
     position: absolute;
     display: inline-block;
-    width: 25px;
-    height: 50px;
+    width: 12.5px;
+    height: 25px;
     background-color: #27aeb4;
-    left: 100px;
+    left: 50px;
     top: 0px;
 }
 .rzzt-logo2 > i+i+i+i {
     position: absolute;
     display: inline-block;
-    width: 50px;
-    height: 25px;
+    width: 25px;
+    height: 12.5px;
     background-color: #27aeb4;
-    left: 100px;
-    top: 50px;
+    left: 50px;
+    top: 25px;
 }
 
 
@@ -110,19 +110,19 @@
 .rzzt-logo3 > i+i {
     position: absolute;
     display: inline-block;
-    width: 25px;
-    height: 75px;
+    width: 12.5px;
+    height: 37.5px;
     background-color: #27aeb4;
-    left: 150px;
-    top: 50px;
+    left: 75px;
+    top: 25px;
 }
 .rzzt-logo3 > i+i+i {
     position: absolute;
     display: inline-block;
-    width: 50px;
-    height: 75px;
+    width: 25px;
+    height: 37.5px;
     background-color: #27aeb4;
-    left: 225px;
+    left: 112.5px;
     top: 0px;
 }
 
@@ -135,27 +135,27 @@
 .rzzt-logo4 > i {
     position: absolute;
     display: inline-block;
-    width: 100px;
-    height: 125px;
+    width: 50px;
+    height: 62.5px;
     background-color: #782ebf;
-    left: 250px;
+    left: 125px;
     top: 0px;
 }
 .rzzt-logo4 > i+i {
     position: absolute;
     display: inline-block;
-    width: 25px;
-    height: 75px;
+    width: 12.5px;
+    height: 37.5px;
     background-color: #27aeb4;
-    left: 275px;
-    top: 50px;
+    left: 137.5px;
+    top: 25px;
 }
 .rzzt-logo4 > i+i+i {
     position: absolute;
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 12.5px;
+    height: 12.5px;
     background-color: #27aeb4;
-    left: 250px;
-    top: 50px;
+    left: 125px;
+    top: 25px;
 }
