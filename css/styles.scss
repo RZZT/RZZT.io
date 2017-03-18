@@ -1,0 +1,266 @@
+
+@mixin iGlitch($name, $intensity, $width, $height, $top, $left) {
+  $steps: $intensity;
+  // Ensure the @keyframes are generated at the root level
+  @at-root {
+    // We need two different ones
+    @for $i from 1 through 2 {
+      @keyframes #{$name}-anim-#{$i} {
+        @for $i from 0 through $steps {
+          #{percentage($i*(1/$steps))} {
+            clip: rect( random($height)+px, $width+px, random($height)+px, 0);
+          }
+        }
+      }
+    }
+  }
+  > i {
+    position: absolute;
+    top: 80%;
+    left: $left+px;
+  }
+  > i:nth-child(2),
+  > i:nth-child(3) {
+    position: absolute;
+    top: 80%;
+    clip: rect(0, 0, 0, 0);
+  }
+  > i:nth-child(2) {
+    position: absolute;
+    top: 80%;
+    left: ($left + 2) + px;
+    animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+  }
+  > i:nth-child(3) {
+    position: absolute;
+    top: 80%;
+    left: ($left - 2) + px;
+    animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+  }
+}
+
+@mixin divGlitch($name, $intensity, $width, $height, $top, $left) {
+  $steps: $intensity;
+  // Ensure the @keyframes are generated at the root level
+  @at-root {
+    // We need two different ones
+    @for $i from 1 through 2 {
+      @keyframes #{$name}-anim-#{$i} {
+        @for $i from 0 through $steps {
+          #{percentage($i*(1/$steps))} {
+            clip: rect( random($height)+px, $width+px, random($height)+px, 0);
+          }
+        }
+      }
+    }
+  }
+  > div {
+    position: absolute;
+    top: 80%;
+    left: $left+px;
+  }
+  > div:nth-child(2),
+  > div:nth-child(3) {
+    position: absolute;
+    top: 80%;
+    clip: rect(0, 0, 0, 0);
+  }
+  > div:nth-child(2) {
+    position: absolute;
+    top: 80%;
+    left: ($left + 2) + px;
+    animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+  }
+  > div:nth-child(3) {
+    position: absolute;
+    top: 80%;
+    left: ($left - 2) + px;
+    animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+  }
+}
+
+
+
+
+
+@import "compass/css3";
+
+.main-div {}
+
+.left-bg {
+  background-color: #ffff00;
+  height: 100%;
+  width: 25%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.right-bg {
+  background-color: #333333;
+  height: 100%;
+  width: 75%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.left-block {
+  height: 75px;
+  width: 50px;
+  position: absolute;
+  right: 0px;
+  top: 80%;
+}
+
+
+.right-block {
+  height: 75px;
+  width: 150px;
+  position: absolute;
+  left: 0px;
+  top: 80%;
+}
+.rzzt-logo1-container {
+  position:relative;
+  @include iGlitch("rzzt-logo1-container", 15, 500, 500, 0, 0);
+}
+.rzzt-logo2-container {
+  position:relative;
+  @include iGlitch("rzzt-logo2-container", 15, 500, 500, 0, 0);
+}
+.rzzt-logo3-container {
+  position:relative;
+  @include iGlitch("rzzt-logo3-container", 15, 500, 500, 0, 0);
+}
+.rzzt-logo4-container {
+  position:relative;
+  @include iGlitch("rzzt-logo4-container", 15, 500, 500, 0, 0);
+}
+.rzzt-logo1 {
+  position: absolute;
+}
+
+.rzzt-logo1 > i {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 62.5px;
+  background-color: #333333;
+  left: 0px;
+  top: 0px;
+}
+
+.rzzt-logo1 > i+i {
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 37.5px;
+  background-color: #ffff00;
+  left: 25px;
+  top: 25px;
+}
+
+.rzzt-logo2 {
+  position: relative;
+
+}
+
+.rzzt-logo2 > i {
+  position: absolute;
+  display: inline-block;
+  width: 137.5px;
+  height: 62.5px;
+  background-color: #ffff00;
+  left: 0px;
+  top: 0px;
+}
+
+.rzzt-logo2 > i+i {
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 37.5px;
+  background-color: #333333;
+  left: 0px;
+  top: 25px;
+}
+
+.rzzt-logo2 > i+i+i {
+  position: absolute;
+  display: inline-block;
+  width: 12.5px;
+  height: 25px;
+  background-color: #333333;
+  left: 50px;
+  top: 0px;
+}
+
+.rzzt-logo2 > i+i+i+i {
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 12.5px;
+  background-color: #333333;
+  left: 50px;
+  top: 25px;
+}
+
+.rzzt-logo3 {
+  position: relative;
+}
+
+.rzzt-logo3 > i+i {
+  position: absolute;
+  display: inline-block;
+  width: 12.5px;
+  height: 37.5px;
+  background-color: #333333;
+  left: 75px;
+  top: 25px;
+}
+
+.rzzt-logo3 > i+i+i {
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 37.5px;
+  background-color: #333333;
+  left: 112.5px;
+  top: 0px;
+}
+
+
+.rzzt-logo4 {
+  position: relative;
+}
+
+.rzzt-logo4 > i {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 62.5px;
+  background-color: #ffff00;
+  left: 125px;
+  top: 0px;
+}
+
+.rzzt-logo4 > i+i {
+  position: absolute;
+  display: inline-block;
+  width: 12.5px;
+  height: 37.5px;
+  background-color: #333333;
+  left: 137.5px;
+  top: 25px;
+}
+
+.rzzt-logo4 > i+i+i {
+  position: absolute;
+  display: inline-block;
+  width: 12.5px;
+  height: 12.5px;
+  background-color: #333333;
+  left: 125px;
+  top: 25px;
+}
