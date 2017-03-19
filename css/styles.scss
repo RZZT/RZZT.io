@@ -1,3 +1,7 @@
+.item-listing {
+    padding-left: 15px;
+    
+}
 .arrow-icon {
     position: relative;
 }
@@ -7,10 +11,8 @@
     width: 0;
     height: 0;
     line-height: 0;
-    border: 3em solid transparent;
-    border-left: 3em solid #000000;
-    left: 0em;
-    top: 0em;
+    border: 8px solid transparent;
+    border-left: 8px solid #ffe818;
 }
 
 
@@ -46,7 +48,7 @@
 }
 
 
-.taskhive-link {
+.title-link {
   color: #ffe818;
   position: relative;
   top: 70%;
