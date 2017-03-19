@@ -124,9 +124,20 @@
   </div>
     <div class='overlay'></div>
 
+
 <script>
+
+	$.fn.preload = function() {
+	    this.each(function(){
+		$('<img/>')[0].src = this;
+	    });
+	}
+
+	$(['../cryptologoglitch.png','../logo_glitch.png','../taplogoglitch.png']).preload();
+
   $(".rzzt-list-item-1").click(function () {
        $(".right-bg").css("background-image","url(../cryptologoglitch.png)");
+       $(".right-bg").css("background-position","6em 6em");
        $(".left-bg").css("background-color","#7924c2");
        $(".rzzt-logo1 > i + i").css("background-color","#7924c2");
        $(".rzzt-logo2 > i").css("background-color","#7924c2");
@@ -137,6 +148,7 @@
   });
   $(".rzzt-list-item-2").click(function () {
        $(".right-bg").css("background-image","url(../logo_glitch.png)");
+       $(".right-bg").css("background-position","6em 6em");
        $(".left-bg").css("background-color","#ffe818");
        $(".rzzt-logo1 > i + i").css("background-color","#ffe818");
        $(".rzzt-logo2 > i").css("background-color","#ffe818");
@@ -147,12 +159,14 @@
   });
   $(".rzzt-list-item-3").click(function () {
        $(".right-bg").css("background-image","url(../taplogoglitch.png)");
+       $(".right-bg").css("background-position","-2em -3em");
        $(".left-bg").css("background-color","#d91b20");
        $(".rzzt-logo1 > i + i").css("background-color","#d91b20");
        $(".rzzt-logo2 > i").css("background-color","#d91b20");
        $(".rzzt-logo2 > i + i").css("background-color","#000000");
        $(".rzzt-logo4 > i").css("background-color","#d91b20");
        $(".rzzt-logo4 > i + i").css("background-color","#000000");
+       $(".rzzt-logo4 > i + i + i").css("background-color","#000000");
        $(".rzzt-logo4 > i + i + i").css("background-color","#000000");
   });
 
