@@ -71,7 +71,7 @@
     border-left: 8px solid #ffe818;
 }
 
-
+/*
  .overlay {
   // ... positioning
   position:absolute;
@@ -102,7 +102,7 @@
   0%   { top: 0px;}
   99% { top: 99%;}
 }
-
+*/
 
 .left-bg {
   background-color: #ffe818;
@@ -260,13 +260,13 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  animation: rzzt-logo1-container-anim-1 2s infinite linear alternate-reverse;
+  /* animation: rzzt-logo1-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo1-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  animation: rzzt-logo1-container-anim-2 3s infinite linear alternate-reverse;
+  /* animation: rzzt-logo1-container-anim-2 3s infinite linear alternate-reverse; */
 }
 
 .rzzt-logo2-container {
@@ -387,13 +387,13 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  animation: rzzt-logo2-container-anim-1 2s infinite linear alternate-reverse;
+  /* animation: rzzt-logo2-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo2-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  animation: rzzt-logo2-container-anim-2 3s infinite linear alternate-reverse;
+  /* animation: rzzt-logo2-container-anim-2 3s infinite linear alternate-reverse; */
 }
 
 .rzzt-logo3-container {
@@ -514,13 +514,13 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  animation: rzzt-logo3-container-anim-1 2s infinite linear alternate-reverse;
+  /* animation: rzzt-logo3-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo3-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  animation: rzzt-logo3-container-anim-2 3s infinite linear alternate-reverse;
+  /* animation: rzzt-logo3-container-anim-2 3s infinite linear alternate-reverse; */
 }
 
 .rzzt-logo4-container {
@@ -641,13 +641,13 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  animation: rzzt-logo4-container-anim-1 2s infinite linear alternate-reverse;
+  /* animation: rzzt-logo4-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo4-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  animation: rzzt-logo4-container-anim-2 3s infinite linear alternate-reverse;
+  /* animation: rzzt-logo4-container-anim-2 3s infinite linear alternate-reverse; */
 }
 
 .rzzt-logo1 {
