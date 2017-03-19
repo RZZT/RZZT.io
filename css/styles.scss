@@ -1,12 +1,15 @@
 .line-separator {
-    position: relative;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
 }
 .line-separator > i {
     position: absolute;
     display: inline-block;
-    width: 100px;
+    width: 120px;
     height: 2px;
-    background-color: #ffe818;
+    background-color: #000000;
     left: 0em;
     top: 0em;
 }
@@ -23,6 +26,7 @@
   color: #ffe818;
   position: relative;
   padding-left: 20px;
+  cursor:pointer;
 }
 
 .item-listing {
