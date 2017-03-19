@@ -1,4 +1,4 @@
-/* .overlay {
+ .overlay {
   // ... positioning
   position:absolute;
   z-index: 4100;
@@ -28,8 +28,14 @@
   0%   { top: 0px;}
   100% { top: 100%;}
 }
-*/
 
+
+.taskhive-link {
+  color: #ffe818;
+  position: relative;
+  top: 70%;
+  padding-left: 20px;
+}
 
 .left-bg {
   background-color: #ffe818;
