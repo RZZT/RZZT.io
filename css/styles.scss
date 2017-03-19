@@ -1,3 +1,19 @@
+.arrow-icon {
+    position: relative;
+}
+.arrow-icon > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 3em solid transparent;
+    border-left: 3em solid #000000;
+    left: 0em;
+    top: 0em;
+}
+
+
  .overlay {
   // ... positioning
   position:absolute;
