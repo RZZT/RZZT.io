@@ -1,109 +1,3 @@
-.rzzt-list-item-1 {
-	padding-bottom:7px;
-	cursor:pointer;
-}
-.rzzt-list-item-2 {
-	padding-bottom:6px;
-	cursor:pointer;
-}
-.rzzt-list-item-3 {
-	padding-bottom:6px;
-	cursor:pointer;
-}
-
-.rzzt-list-container-left {
-    width: 6em;
-    right: 0px;
-    position: absolute;
-    padding-right: 10em;
-    font-family: monospace;
-    top: 40%;
-    font-size: 2em;
-    font-style: italic;
-    text-align: right;
-}
-
-.line-separator {
-	position: relative;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: inline-block;
-}
-.line-separator > i {
-    position: absolute;
-    display: inline-block;
-    width: 120px;
-    height: 2px;
-    background-color: #000000;
-    left: 0em;
-    top: 0em;
-}
-
-
-.rzzt-list-container {
-	position: absolute;
-	top: -7em;
-	left: 2em;
-}
-
-
-.title-link {
-  color: #ffe818;
-  position: relative;
-  padding-left: 20px;
-  cursor:pointer;
-}
-
-.item-listing {
-    padding-left: 15px;
-    
-}
-.arrow-icon {
-    position: absolute;
-}
-.arrow-icon > i {
-    position: absolute;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    line-height: 0;
-    border: 8px solid transparent;
-    border-left: 8px solid #ffe818;
-}
-
-/*
- .overlay {
-  // ... positioning
-  position:absolute;
-  z-index: 4100;
-}
- 
-.overlay:before {
-  content : '';
-  position : absolute;
-  top : 0px;
-  width : 98%;
-  height : 2px;
-  background-color: #000;
-  opacity : .1;
-  animation: vline 1s linear infinite;
-}
- 
-.overlay:after {
-  // ... positioning
-  box-shadow: 0 2px 6px rgba(25,25,25,0.2),
-              inset 0 3px rgba(50,50,50,0.1),
-              inset 0 3px rgba(50,50,50,0.05),
-              inset 0 2px 8px rgba(64,64,64,0.05),
-              inset 0 -5px 10px rgba(25,25,25,0.1);
-}
- 
-@keyframes vline {
-  0%   { top: 0px;}
-  99% { top: 99%;}
-}
-*/
-
 .left-bg {
   background-color: #ffe818;
   height: 100%;
@@ -115,10 +9,7 @@
 
 .right-bg {
   background-color: #000000;
-  background-image: url(../logo_glitch.png);
   background-size: 100%;
-  background-position: 6em 6em;
-  background-repeat: no-repeat;
   height: 100%;
   width: 75%;
   position: absolute;
@@ -145,106 +36,6 @@
 .rzzt-logo1-container {
   position: relative;
 }
-@keyframes rzzt-logo1-container-anim-1 {
-  0% {
-    clip: rect(145px, 500px, 166px, 0);
-  }
-  6.66667% {
-    clip: rect(92px, 500px, 91px, 0);
-  }
-  13.33333% {
-    clip: rect(73px, 500px, 200px, 0);
-  }
-  20% {
-    clip: rect(330px, 500px, 13px, 0);
-  }
-  26.66667% {
-    clip: rect(218px, 500px, 81px, 0);
-  }
-  33.33333% {
-    clip: rect(122px, 500px, 40px, 0);
-  }
-  40% {
-    clip: rect(73px, 500px, 216px, 0);
-  }
-  46.66667% {
-    clip: rect(361px, 500px, 274px, 0);
-  }
-  53.33333% {
-    clip: rect(355px, 500px, 456px, 0);
-  }
-  60% {
-    clip: rect(263px, 500px, 180px, 0);
-  }
-  66.66667% {
-    clip: rect(310px, 500px, 250px, 0);
-  }
-  73.33333% {
-    clip: rect(477px, 500px, 388px, 0);
-  }
-  80% {
-    clip: rect(42px, 500px, 391px, 0);
-  }
-  86.66667% {
-    clip: rect(297px, 500px, 346px, 0);
-  }
-  93.33333% {
-    clip: rect(260px, 500px, 360px, 0);
-  }
-  100% {
-    clip: rect(255px, 500px, 61px, 0);
-  }
-}
-@keyframes rzzt-logo1-container-anim-2 {
-  0% {
-    clip: rect(368px, 500px, 493px, 0);
-  }
-  6.66667% {
-    clip: rect(74px, 500px, 255px, 0);
-  }
-  13.33333% {
-    clip: rect(311px, 500px, 433px, 0);
-  }
-  20% {
-    clip: rect(357px, 500px, 282px, 0);
-  }
-  26.66667% {
-    clip: rect(22px, 500px, 359px, 0);
-  }
-  33.33333% {
-    clip: rect(396px, 500px, 156px, 0);
-  }
-  40% {
-    clip: rect(496px, 500px, 272px, 0);
-  }
-  46.66667% {
-    clip: rect(325px, 500px, 78px, 0);
-  }
-  53.33333% {
-    clip: rect(23px, 500px, 489px, 0);
-  }
-  60% {
-    clip: rect(184px, 500px, 398px, 0);
-  }
-  66.66667% {
-    clip: rect(466px, 500px, 199px, 0);
-  }
-  73.33333% {
-    clip: rect(13px, 500px, 363px, 0);
-  }
-  80% {
-    clip: rect(350px, 500px, 474px, 0);
-  }
-  86.66667% {
-    clip: rect(101px, 500px, 162px, 0);
-  }
-  93.33333% {
-    clip: rect(488px, 500px, 199px, 0);
-  }
-  100% {
-    clip: rect(7px, 500px, 32px, 0);
-  }
-}
 .rzzt-logo1-container > i {
   position: absolute;
   top: 80%;
@@ -260,117 +51,15 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  /* animation: rzzt-logo1-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo1-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  /* animation: rzzt-logo1-container-anim-2 3s infinite linear alternate-reverse; */
 }
 
 .rzzt-logo2-container {
   position: relative;
-}
-@keyframes rzzt-logo2-container-anim-1 {
-  0% {
-    clip: rect(275px, 500px, 267px, 0);
-  }
-  6.66667% {
-    clip: rect(37px, 500px, 317px, 0);
-  }
-  13.33333% {
-    clip: rect(433px, 500px, 396px, 0);
-  }
-  20% {
-    clip: rect(300px, 500px, 236px, 0);
-  }
-  26.66667% {
-    clip: rect(172px, 500px, 65px, 0);
-  }
-  33.33333% {
-    clip: rect(14px, 500px, 38px, 0);
-  }
-  40% {
-    clip: rect(319px, 500px, 449px, 0);
-  }
-  46.66667% {
-    clip: rect(463px, 500px, 210px, 0);
-  }
-  53.33333% {
-    clip: rect(470px, 500px, 290px, 0);
-  }
-  60% {
-    clip: rect(473px, 500px, 184px, 0);
-  }
-  66.66667% {
-    clip: rect(239px, 500px, 343px, 0);
-  }
-  73.33333% {
-    clip: rect(345px, 500px, 246px, 0);
-  }
-  80% {
-    clip: rect(11px, 500px, 90px, 0);
-  }
-  86.66667% {
-    clip: rect(305px, 500px, 481px, 0);
-  }
-  93.33333% {
-    clip: rect(159px, 500px, 411px, 0);
-  }
-  100% {
-    clip: rect(273px, 500px, 394px, 0);
-  }
-}
-@keyframes rzzt-logo2-container-anim-2 {
-  0% {
-    clip: rect(60px, 500px, 211px, 0);
-  }
-  6.66667% {
-    clip: rect(445px, 500px, 163px, 0);
-  }
-  13.33333% {
-    clip: rect(242px, 500px, 44px, 0);
-  }
-  20% {
-    clip: rect(89px, 500px, 242px, 0);
-  }
-  26.66667% {
-    clip: rect(283px, 500px, 123px, 0);
-  }
-  33.33333% {
-    clip: rect(450px, 500px, 449px, 0);
-  }
-  40% {
-    clip: rect(403px, 500px, 11px, 0);
-  }
-  46.66667% {
-    clip: rect(241px, 500px, 34px, 0);
-  }
-  53.33333% {
-    clip: rect(317px, 500px, 216px, 0);
-  }
-  60% {
-    clip: rect(81px, 500px, 64px, 0);
-  }
-  66.66667% {
-    clip: rect(303px, 500px, 484px, 0);
-  }
-  73.33333% {
-    clip: rect(456px, 500px, 44px, 0);
-  }
-  80% {
-    clip: rect(310px, 500px, 337px, 0);
-  }
-  86.66667% {
-    clip: rect(495px, 500px, 273px, 0);
-  }
-  93.33333% {
-    clip: rect(45px, 500px, 307px, 0);
-  }
-  100% {
-    clip: rect(428px, 500px, 190px, 0);
-  }
 }
 .rzzt-logo2-container > i {
   position: absolute;
@@ -387,117 +76,15 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  /* animation: rzzt-logo2-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo2-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  /* animation: rzzt-logo2-container-anim-2 3s infinite linear alternate-reverse; */
 }
 
 .rzzt-logo3-container {
   position: relative;
-}
-@keyframes rzzt-logo3-container-anim-1 {
-  0% {
-    clip: rect(125px, 500px, 441px, 0);
-  }
-  6.66667% {
-    clip: rect(333px, 500px, 427px, 0);
-  }
-  13.33333% {
-    clip: rect(195px, 500px, 20px, 0);
-  }
-  20% {
-    clip: rect(228px, 500px, 142px, 0);
-  }
-  26.66667% {
-    clip: rect(466px, 500px, 306px, 0);
-  }
-  33.33333% {
-    clip: rect(383px, 500px, 370px, 0);
-  }
-  40% {
-    clip: rect(264px, 500px, 80px, 0);
-  }
-  46.66667% {
-    clip: rect(447px, 500px, 150px, 0);
-  }
-  53.33333% {
-    clip: rect(84px, 500px, 46px, 0);
-  }
-  60% {
-    clip: rect(364px, 500px, 164px, 0);
-  }
-  66.66667% {
-    clip: rect(370px, 500px, 262px, 0);
-  }
-  73.33333% {
-    clip: rect(455px, 500px, 89px, 0);
-  }
-  80% {
-    clip: rect(347px, 500px, 218px, 0);
-  }
-  86.66667% {
-    clip: rect(470px, 500px, 44px, 0);
-  }
-  93.33333% {
-    clip: rect(318px, 500px, 259px, 0);
-  }
-  100% {
-    clip: rect(440px, 500px, 414px, 0);
-  }
-}
-@keyframes rzzt-logo3-container-anim-2 {
-  0% {
-    clip: rect(176px, 500px, 127px, 0);
-  }
-  6.66667% {
-    clip: rect(374px, 500px, 5px, 0);
-  }
-  13.33333% {
-    clip: rect(182px, 500px, 130px, 0);
-  }
-  20% {
-    clip: rect(54px, 500px, 370px, 0);
-  }
-  26.66667% {
-    clip: rect(487px, 500px, 177px, 0);
-  }
-  33.33333% {
-    clip: rect(41px, 500px, 437px, 0);
-  }
-  40% {
-    clip: rect(388px, 500px, 82px, 0);
-  }
-  46.66667% {
-    clip: rect(179px, 500px, 180px, 0);
-  }
-  53.33333% {
-    clip: rect(482px, 500px, 362px, 0);
-  }
-  60% {
-    clip: rect(153px, 500px, 32px, 0);
-  }
-  66.66667% {
-    clip: rect(427px, 500px, 485px, 0);
-  }
-  73.33333% {
-    clip: rect(96px, 500px, 308px, 0);
-  }
-  80% {
-    clip: rect(500px, 500px, 201px, 0);
-  }
-  86.66667% {
-    clip: rect(267px, 500px, 17px, 0);
-  }
-  93.33333% {
-    clip: rect(475px, 500px, 301px, 0);
-  }
-  100% {
-    clip: rect(265px, 500px, 108px, 0);
-  }
 }
 .rzzt-logo3-container > i {
   position: absolute;
@@ -514,117 +101,14 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  /* animation: rzzt-logo3-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo3-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  /* animation: rzzt-logo3-container-anim-2 3s infinite linear alternate-reverse; */
 }
-
 .rzzt-logo4-container {
   position: relative;
-}
-@keyframes rzzt-logo4-container-anim-1 {
-  0% {
-    clip: rect(133px, 500px, 222px, 0);
-  }
-  6.66667% {
-    clip: rect(206px, 500px, 211px, 0);
-  }
-  13.33333% {
-    clip: rect(95px, 500px, 488px, 0);
-  }
-  20% {
-    clip: rect(169px, 500px, 45px, 0);
-  }
-  26.66667% {
-    clip: rect(179px, 500px, 338px, 0);
-  }
-  33.33333% {
-    clip: rect(386px, 500px, 362px, 0);
-  }
-  40% {
-    clip: rect(285px, 500px, 206px, 0);
-  }
-  46.66667% {
-    clip: rect(342px, 500px, 396px, 0);
-  }
-  53.33333% {
-    clip: rect(484px, 500px, 46px, 0);
-  }
-  60% {
-    clip: rect(117px, 500px, 45px, 0);
-  }
-  66.66667% {
-    clip: rect(420px, 500px, 420px, 0);
-  }
-  73.33333% {
-    clip: rect(190px, 500px, 171px, 0);
-  }
-  80% {
-    clip: rect(355px, 500px, 57px, 0);
-  }
-  86.66667% {
-    clip: rect(335px, 500px, 26px, 0);
-  }
-  93.33333% {
-    clip: rect(318px, 500px, 3px, 0);
-  }
-  100% {
-    clip: rect(404px, 500px, 292px, 0);
-  }
-}
-@keyframes rzzt-logo4-container-anim-2 {
-  0% {
-    clip: rect(163px, 500px, 173px, 0);
-  }
-  6.66667% {
-    clip: rect(222px, 500px, 316px, 0);
-  }
-  13.33333% {
-    clip: rect(294px, 500px, 494px, 0);
-  }
-  20% {
-    clip: rect(125px, 500px, 70px, 0);
-  }
-  26.66667% {
-    clip: rect(366px, 500px, 308px, 0);
-  }
-  33.33333% {
-    clip: rect(321px, 500px, 266px, 0);
-  }
-  40% {
-    clip: rect(145px, 500px, 255px, 0);
-  }
-  46.66667% {
-    clip: rect(491px, 500px, 178px, 0);
-  }
-  53.33333% {
-    clip: rect(424px, 500px, 4px, 0);
-  }
-  60% {
-    clip: rect(278px, 500px, 447px, 0);
-  }
-  66.66667% {
-    clip: rect(14px, 500px, 456px, 0);
-  }
-  73.33333% {
-    clip: rect(211px, 500px, 207px, 0);
-  }
-  80% {
-    clip: rect(137px, 500px, 59px, 0);
-  }
-  86.66667% {
-    clip: rect(117px, 500px, 383px, 0);
-  }
-  93.33333% {
-    clip: rect(75px, 500px, 288px, 0);
-  }
-  100% {
-    clip: rect(348px, 500px, 393px, 0);
-  }
 }
 .rzzt-logo4-container > i {
   position: absolute;
@@ -641,15 +125,12 @@
   position: absolute;
   top: 80%;
   left: 2px;
-  /* animation: rzzt-logo4-container-anim-1 2s infinite linear alternate-reverse; */
 }
 .rzzt-logo4-container > i:nth-child(3) {
   position: absolute;
   top: 80%;
   left: -2px;
-  /* animation: rzzt-logo4-container-anim-2 3s infinite linear alternate-reverse; */
 }
-
 .rzzt-logo1 {
   position: absolute;
 }
