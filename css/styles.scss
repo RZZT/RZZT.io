@@ -1,11 +1,12 @@
 .right-block-icons-container {
-  position: relative;
-  top:-50px;
+  position: absolute;
+  top: 80%;
+  right: 1%;
 }
 .right-block-icons {
   position: absolute;
-  top: 80%;
-  left: 200px;
+  top: -50px;
+  right: 200px;
 }
 
 .left-bg {
