@@ -79,8 +79,9 @@
 
 
 			$(function() {
-				$(".right-block").animate({ "top":"5%", height: ($(this).height()/2), width: ($(this).width()/2) }, "slow");
-				$(".left-block").animate({ "top":"5%", height: ($(this).height()/2), width: ($(this).width()/2) }, "slow");
+				$(".right-block, .left-block").animate({ "top":"5%"}, "slow");
+				$('.right-block').effect('scale'{percent:50},"slow");
+				$('.left-block').effect('scale'{percent:50},"slow");
 			});
 
 
