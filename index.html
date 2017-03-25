@@ -48,13 +48,6 @@
 
 		<script>
 
-			$(function() {
-				
-				$(".left-block").delay(1500).animate({ "top":"5%"}, "slow");
-				$(".right-block").delay(1500).animate({ "top":"5%"}, "slow");
-
-			});
-
 			$(".right-block-icon-item1").click(function () {
 				$(".left-bg").css("background-color","#7924c2");
 				$(".rzzt-logo1 > i + i").css("background-color","#7924c2");
@@ -83,6 +76,15 @@
 				$(".rzzt-logo4 > i + i + i").css("background-color","#000000");
 				$(".rzzt-logo4 > i + i + i").css("background-color","#000000");
 			});
+
+
+			$(function() {
+				
+				$(".right-block, .left-block").delay(1500).animate({ "top":"5%"}, "slow");
+
+			});
+
+
 		</script>
 
 
