@@ -97,8 +97,8 @@
 
 			function resize_logo() {
 
-				$(".right-block, .left-block").animate({ "top":"5%" }, { duration: 3000, queue: false }, {
-					$('.right-block-icons-container').show().animate({width: "100%"}, { duration: 2000, queue: false }, {
+				$(".right-block, .left-block").animate({ "top":"5%" }, { duration: 3000, queue: false }, function(){
+					$('.right-block-icons-container').show().animate({width: "100%"}, { duration: 2000, queue: false }, function(){
 						$('.right-block-icons').show(2000);
 					});
 				});
