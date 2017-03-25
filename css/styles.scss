@@ -1,6 +1,12 @@
-.right-block-icons {
+.right-block-icons-container {
   position: relative;
 }
+.right-block-icons {
+  position: absolute;
+  top: 80%;
+  left: 0px;
+}
+
 .left-bg {
   background-color: #ffe818;
   height: 100%;
