@@ -70,8 +70,8 @@ body {
 }
 
 .left-block {
-	height: 75px;
-	width: 100px;
+	height: auto;
+	width: auto;
 	min-width:50px;
 	position: absolute;
 	right: 0px;
@@ -80,8 +80,8 @@ body {
 }
 
 .right-block {
-	height: 75px;
-	width: 150px;
+	height: auto;
+	width: auto;
 	position: absolute;
 	left: 0px;
 	top: 80%;
