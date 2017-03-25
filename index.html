@@ -1,315 +1,91 @@
-html {
-  margin:0px;
-  padding:0px;
-  background-color: #ffe818;
-}
-body {
-  width:100%;
-  height:100%;
-  margin:0px;
-  padding:0px;
-  background-color: #ffe818;
-  overflow:hidden;
-}
-.main-container {
-  background-color: #ffe818;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  min-width:950px;
-  margin:0px;
-  padding:0px;
-}
+<html>
 
-.right-block-icon-item {
-	margin-left:10px;
-	cursor:pointer;
-}
-.right-block-icon-item > img {
-	width: 80px;
-}
-.right-block-icons-container {
-        display:none;
-	position: absolute;
-	top: 5%;
-	right: 0px;
-	margin: 75px 0 0 0;
-	border-bottom: solid 1px #000000;
-	width: 100%;
-}
-.right-block-icons {
-	position: absolute;
-	top: -84px;
-	right: 200px;
-	width: 300px;
-	min-width: 300px;
-}
+	<head>
+		<title>REZIZT</title>
+		<link href="./css/styles.scss" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.4.4.js"></script>
 
-.left-bg {
-  background-color: #000000;
-  height: 100%;
-  min-width:200px;
-  width:25%;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  display: inline-block;
-}
+	</head>
 
-.right-bg {
-  background-color: #ffe818;
-  height: 100%;
-  width: 74%;
-  min-width: 600px;
-  position: relative;
-  top: 0px;
-  left: -4px;
-  display: inline-block;
-}
+	<body>
 
-.left-block {
-	height: 75px;
-	width: 50px;
-	min-width:50px;
-	position: absolute;
-	right: 0px;
-	top: 80%;
-	margin:0px;
-}
+		<div class='main-container'>
 
-.right-block {
-	height: 75px;
-	width: 150px;
-	position: absolute;
-	left: 0px;
-	top: 80%;
-	margin: 0px;
-}
+			<div class='left-bg'>
+				<div class='left-block'>
+					<div class='rzzt-logo1-container'>
+						<i class="rzzt-logo1"><i></i><i></i></i>
+					</div>
+				</div>
+			</div>
 
-.rzzt-logo1-container {
-  position: relative;
-}
-.rzzt-logo1-container > i {
-  position: absolute;
-  top: 80%;
-  left: 0px;
-}
-.rzzt-logo1-container > i:nth-child(2),
-.rzzt-logo1-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  clip: rect(0, 0, 0, 0);
-}
-.rzzt-logo1-container > i:nth-child(2) {
-  position: absolute;
-  top: 80%;
-  left: 2px;
-}
-.rzzt-logo1-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  left: -2px;
-}
 
-.rzzt-logo2-container {
-  position: relative;
-}
-.rzzt-logo2-container > i {
-  position: absolute;
-  top: 80%;
-  left: 0px;
-}
-.rzzt-logo2-container > i:nth-child(2),
-.rzzt-logo2-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  clip: rect(0, 0, 0, 0);
-}
-.rzzt-logo2-container > i:nth-child(2) {
-  position: absolute;
-  top: 80%;
-  left: 2px;
-}
-.rzzt-logo2-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  left: -2px;
-}
+			<div class='right-bg'>
+				<div class='right-block'>
 
-.rzzt-logo3-container {
-  position: relative;
-}
-.rzzt-logo3-container > i {
-  position: absolute;
-  top: 80%;
-  left: 0px;
-}
-.rzzt-logo3-container > i:nth-child(2),
-.rzzt-logo3-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  clip: rect(0, 0, 0, 0);
-}
-.rzzt-logo3-container > i:nth-child(2) {
-  position: absolute;
-  top: 80%;
-  left: 2px;
-}
-.rzzt-logo3-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  left: -2px;
-}
+					<div class='rzzt-logo2-container'>
+						<i class="rzzt-logo2"><i></i><i></i><i></i><i></i></i>
+					</div>
 
-.rzzt-logo4-container {
-  position: relative;
-}
-.rzzt-logo4-container > i {
-  position: absolute;
-  top: 80%;
-  left: 0px;
-}
-.rzzt-logo4-container > i:nth-child(2),
-.rzzt-logo4-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  clip: rect(0, 0, 0, 0);
-}
-.rzzt-logo4-container > i:nth-child(2) {
-  position: absolute;
-  top: 80%;
-  left: 2px;
-}
-.rzzt-logo4-container > i:nth-child(3) {
-  position: absolute;
-  top: 80%;
-  left: -2px;
-}
+					<div class='rzzt-logo3-container'>
+						<i class="rzzt-logo3"><i></i><i></i><i></i><i></i></i>
+					</div>
 
-.rzzt-logo1 {
-  position: absolute;
-}
+					<div class='rzzt-logo4-container'>
+						<i class="rzzt-logo4"><i></i><i></i><i></i></i>
+					</div>
+				</div>
 
-.rzzt-logo1 > i {
-  position: absolute;
-  display: inline-block;
-  width: 100px;
-  height: 125px;
-  background-color: #ffe818;
-  left: 0px;
-  top: 0px;
-}
+				<div class='right-block-icons-container'>
 
-.rzzt-logo1 > i + i {
-  position: absolute;
-  display: inline-block;
-  width: 50px;
-  height: 75px;
-  background-color: #000000;
-  left: 25px;
-  top: 25px;
-}
+					<div class='right-block-icons'>
+						<span class='right-block-icon-item right-block-icon-item1'><img src='taskhive_mini.png'></span>
+						<span class='right-block-icon-item right-block-icon-item2'><img src='cryptogram_mini.png'></span>
+					</div>
+				</div>
+			</div>
+		</div>
 
-.rzzt-logo2 {
-	position: relative;
-}
+		<script>
 
-.rzzt-logo2 > i {
-	position: absolute;
-	display: inline-block;
-	width: 275px;
-	height: 125px;
-	background-color: #000000;
-	left: 0px;
-	top: 0px;
-}
+			$(function() {
+				$(".left-block, .right-block").css({top:top}).delay(1500).animate({"top":"5%"}, "slow");
+			});
 
-.rzzt-logo2 > i + i {
-  position: absolute;
-  display: inline-block;
-  width: 50px;
-  height: 75px;
-  background-color: #ffe818;
-  left: 0px;
-  top: 50px;
-}
+			$(".right-block-icon-item1").click(function () {
+				$(".left-bg").css("background-color","#7924c2");
+				$(".rzzt-logo1 > i + i").css("background-color","#7924c2");
+				$(".rzzt-logo2 > i").css("background-color","#7924c2");
+				$(".rzzt-logo2 > i + i").css("background-color","#000000");
+				$(".rzzt-logo4 > i").css("background-color","#7924c2");
+				$(".rzzt-logo4 > i + i").css("background-color","#000000");
+				$(".rzzt-logo4 > i + i + i").css("background-color","#000000");
+			});
+			$(". right-block-icon-item2").click(function () {
+				$(".left-bg").css("background-color","#ffe818");
+				$(".rzzt-logo1 > i + i").css("background-color","#ffe818");
+				$(".rzzt-logo2 > i").css("background-color","#ffe818");
+				$(".rzzt-logo2 > i + i").css("background-color","#000000");
+				$(".rzzt-logo4 > i").css("background-color","#ffe818");
+				$(".rzzt-logo4 > i + i").css("background-color","#000000");
+				$(".rzzt-logo4 > i + i + i").css("background-color","#000000");
+			});
+			$(". right-block-icon-item3").click(function () {
+				$(".left-bg").css("background-color","#d91b20");
+				$(".rzzt-logo1 > i + i").css("background-color","#d91b20");
+				$(".rzzt-logo2 > i").css("background-color","#d91b20");
+				$(".rzzt-logo2 > i + i").css("background-color","#000000");
+				$(".rzzt-logo4 > i").css("background-color","#d91b20");
+				$(".rzzt-logo4 > i + i").css("background-color","#000000");
+				$(".rzzt-logo4 > i + i + i").css("background-color","#000000");
+				$(".rzzt-logo4 > i + i + i").css("background-color","#000000");
+			});
+		</script>
 
-.rzzt-logo2 > i + i + i {
-  position: absolute;
-  display: inline-block;
-  width: 25px;
-  height: 50px;
-  background-color: #ffe818;
-  left: 100px;
-  top: 0px;
-}
 
-.rzzt-logo2 > i + i + i + i {
-  position: absolute;
-  display: inline-block;
-  width: 50px;
-  height: 25px;
-  background-color: #ffe818;
-  left: 100px;
-  top: 50px;
-}
+	</body>
 
-.rzzt-logo3 {
-  position: relative;
-}
-
-.rzzt-logo3 > i + i {
-  position: absolute;
-  display: inline-block;
-  width: 25px;
-  height: 75px;
-  background-color: #ffe818;
-  left: 150px;
-  top: 50px;
-}
-
-.rzzt-logo3 > i + i + i {
-  position: absolute;
-  display: inline-block;
-  width: 50px;
-  height: 75px;
-  background-color: #ffe818;
-  left: 225px;
-  top: 0px;
-}
-
-.rzzt-logo4 {
-  position: relative;
-}
-
-.rzzt-logo4 > i {
-  position: absolute;
-  display: inline-block;
-  width: 100px;
-  height: 125px;
-  background-color: #000000;
-  left: 250px;
-  top: 0px;
-}
-
-.rzzt-logo4 > i + i {
-  position: absolute;
-  display: inline-block;
-  width: 25px;
-  height: 75px;
-  background-color: #ffe818;
-  left: 275px;
-  top: 50px;
-}
-
-.rzzt-logo4 > i + i + i {
-  position: absolute;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-color: #ffe818;
-  left: 250px;
-  top: 50px;
-}
+</html>
+<!-- 
+RZZT is a cypherpunk collective. Cypherpunks write code.
+-->
