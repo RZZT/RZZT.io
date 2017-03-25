@@ -123,9 +123,17 @@
 
 			$(document).ready(function() {
 
-			
-				setTimeout("resize_logo()", 2000);
-			
+				$.fn.preload = function() {
+					this.each(function(){
+						$('<img/>')[0].src = this;
+					});
+					setTimeout("resize_logo()", 2000);
+				}
+
+				// Usage:
+
+				$(['taskhive_mini.png','cryptogram_mini.png']).preload();
+
 			});
 
 
