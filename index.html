@@ -50,7 +50,9 @@
 
 			$(function() {
 				
-				$(".left-block, .right-block").delay(1500).animate({ "top":"5%", "height":"-=10px", "width":"-=10px" }, "slow");
+				$(".left-block").delay(1500).animate({ "top":"5%"}, "slow");
+				$(".right-block").delay(1500).animate({ "top":"5%"}, "slow");
+
 			});
 
 			$(".right-block-icon-item1").click(function () {
