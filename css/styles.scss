@@ -195,8 +195,8 @@ body {
 .rzzt-logo1 > i {
   position: absolute;
   display: inline-block;
-  width: 50px;
-  height: 62.5px;
+  width: 100px;
+  height: 125px;
   background-color: #ffe818;
   left: 0px;
   top: 0px;
@@ -205,32 +205,32 @@ body {
 .rzzt-logo1 > i + i {
   position: absolute;
   display: inline-block;
-  width: 25px;
-  height: 37.5px;
+  width: 50px;
+  height: 75px;
   background-color: #000000;
   left: 25px;
   top: 25px;
 }
 
 .rzzt-logo2 {
-  position: relative;
+	position: relative;
 }
 
 .rzzt-logo2 > i {
-  position: absolute;
-  display: inline-block;
-  width: 137.5px;
-  height: 62.5px;
-  background-color: #000000;
-  left: 0px;
-  top: 0px;
+	position: absolute;
+	display: inline-block;
+	width: 275px;
+	height: 125px;
+	background-color: #000000;
+	left: 0px;
+	top: 0px;
 }
 
 .rzzt-logo2 > i + i {
   position: absolute;
   display: inline-block;
-  width: 25px;
-  height: 37.5px;
+  width: 50px;
+  height: 75px;
   background-color: #ffe818;
   left: 0px;
   top: 25px;
@@ -239,8 +239,8 @@ body {
 .rzzt-logo2 > i + i + i {
   position: absolute;
   display: inline-block;
-  width: 12.5px;
-  height: 25px;
+  width: 25px;
+  height: 50px;
   background-color: #ffe818;
   left: 50px;
   top: 0px;
@@ -249,8 +249,8 @@ body {
 .rzzt-logo2 > i + i + i + i {
   position: absolute;
   display: inline-block;
-  width: 25px;
-  height: 12.5px;
+  width: 50px;
+  height: 25px;
   background-color: #ffe818;
   left: 50px;
   top: 25px;
@@ -263,8 +263,8 @@ body {
 .rzzt-logo3 > i + i {
   position: absolute;
   display: inline-block;
-  width: 12.5px;
-  height: 37.5px;
+  width: 25px;
+  height: 75px;
   background-color: #ffe818;
   left: 75px;
   top: 25px;
@@ -273,8 +273,8 @@ body {
 .rzzt-logo3 > i + i + i {
   position: absolute;
   display: inline-block;
-  width: 25px;
-  height: 37.5px;
+  width: 50px;
+  height: 75px;
   background-color: #ffe818;
   left: 112.5px;
   top: 0px;
@@ -287,8 +287,8 @@ body {
 .rzzt-logo4 > i {
   position: absolute;
   display: inline-block;
-  width: 50px;
-  height: 62.5px;
+  width: 100px;
+  height: 125px;
   background-color: #000000;
   left: 125px;
   top: 0px;
@@ -297,8 +297,8 @@ body {
 .rzzt-logo4 > i + i {
   position: absolute;
   display: inline-block;
-  width: 12.5px;
-  height: 37.5px;
+  width: 25px;
+  height: 75px;
   background-color: #ffe818;
   left: 137.5px;
   top: 25px;
@@ -307,8 +307,8 @@ body {
 .rzzt-logo4 > i + i + i {
   position: absolute;
   display: inline-block;
-  width: 12.5px;
-  height: 12.5px;
+  width: 25px;
+  height: 25px;
   background-color: #ffe818;
   left: 125px;
   top: 25px;
