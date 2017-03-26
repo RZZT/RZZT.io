@@ -32,6 +32,7 @@ body {
 .progress-80 { color:#333333 }
 .progress-100 { color:#000000 }
 
+
 .rzzt-font {
 	font-family: 'Montserrat', sans-serif;
 	font-size:23px;
@@ -72,6 +73,8 @@ body {
   padding:0px;
   overflow:auto;
 }
+.rzzt-body-1, .rzzt-body-2, .rzzt-body-3 { display:none; }
+
 
 .right-block-icon-item {
 	width:80px;
