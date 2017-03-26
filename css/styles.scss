@@ -43,7 +43,7 @@ body {
 	display:inline-block;
 	margin-right:30px;
 }
-.rzzt-body-intro { display:none; width:74% }
+.rzzt-body-intro { display:none; min-width: 300px; width:75% }
 .rzzt-body { display:none; margin-left: 50px; }
 
 .main-container {
