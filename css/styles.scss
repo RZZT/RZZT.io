@@ -42,6 +42,10 @@ body {
 .rzzt-body { display:none; margin-left: 50px; }
 
 .main-container {
+  background: -webkit-gradient(linear, left top, right top, color-stop(24.8%,#000000), color-stop(24.9%,#000000));
+  background: -moz-linear-gradient(left center, #000000 24.8%, #000000 24.9%);
+  background: -o-linear-gradient(left, #000000 24.8%, #000000 24.9%);
+  background: linear-gradient(to right, #000000 24.8%, #FFFFFF 24.9%);
   background-color: #ffffff;
   position: absolute;
   top: 0px;
