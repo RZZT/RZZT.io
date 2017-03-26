@@ -1,9 +1,13 @@
 @font-face {
-	font-family: 'Conv_quadrangle.regular';
+	/* font-family: 'Conv_quadrangle.regular';
 	src: url('fonts/quadrangle.regular.eot');
 	src: local('☺'), url('fonts/quadrangle.regular.woff') format('woff'), url('fonts/quadrangle.regular.ttf') format('truetype'), url('fonts/quadrangle.regular.svg') format('svg');
 	font-weight: normal;
-	font-style: normal;
+	font-style: normal; */
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-style: normal; 
 }
 
 html {
