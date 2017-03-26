@@ -219,7 +219,7 @@
 				$(".main-container").css("background","-moz-linear-gradient(left center, #000000 24.8%, #ffe800 24.9%)");
 				$(".main-container").css("background","-o-linear-gradient(left, #000000 24.8%, #ffe800 24.9%)");
 				$(".main-container").css("background","linear-gradient(to right, #000000 24.8%, #ffe800 24.9%)");
-				$(".rzzt-body-1").hide();
+				$(".rzzt-body-1, .rzzt-body-3").hide();
 				$(".rzzt-body-2").show();
 				
 
@@ -229,6 +229,9 @@
 
 			$(".right-block-icon-item2").click(function () {
 				$(".rzzt-body-container, .main-container, .right-bg, .rzzt-logo1-1, .rzzt-logo2-2, .rzzt-logo2-3, .rzzt-logo2-4, .rzzt-logo3-2, .rzzt-logo3-3, .rzzt-logo3-4, .rzzt-logo4-2, .rzzt-logo4-3").css("background-color","#7924c2");
+
+				$(".rzzt-body-1, .rzzt-body-2").hide();
+				$(".rzzt-body-3").show();
 
 				$(".main-container").css("background","-webkit-gradient(linear, left top, right top, color-stop(24.8%,#000000), color-stop(24.9%,#7924c2))");
 				$(".main-container").css("background","-moz-linear-gradient(left center, #000000 24.8%, #7924c2 24.9%)");
@@ -241,7 +244,7 @@
 
 
 
-
+			/*
 
 			$(".right-block-icon-item3").click(function () {
 				$(".rzzt-body-container, .main-container, .right-bg, .rzzt-logo1-1, .rzzt-logo2-2, .rzzt-logo2-3, .rzzt-logo2-4, .rzzt-logo3-2, .rzzt-logo3-3, .rzzt-logo3-4, .rzzt-logo4-2, .rzzt-logo4-3").css("background-color","#d91b20");
@@ -251,7 +254,7 @@
 			$(".main-container").css("background","linear-gradient(to right, #000000 24.8%, #d91b20 24.9%)");
 
 			});
-
+			*/
 
 			function resize_logo() {
 				$('#rzzt-body-intro').hide();
@@ -279,7 +282,7 @@
 					$('.rzzt-logo4-2').width(25).height(75).animate({left: "137.5px", top: "25px", width: "12.5px", height:  "37.5px"}, { duration: 1000, queue: false });
 					$('.rzzt-logo4-3').width(25).height(25).animate({left: "125px", top: "25px", width: "12.5px", height:  "12.5px"}, { duration: 1000, queue: false });
 				} else {
-					$(".rzzt-body-2").hide();
+					$(".rzzt-body-2, .rzzt-body-3, ").hide();
 
 					$(".rzzt-body-1").show();
 
