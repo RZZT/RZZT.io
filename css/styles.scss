@@ -22,7 +22,8 @@ body {
 }
 .rzzt-body-container {
 	display:none;
-	position: absolute;
+	position: relative;
+	top: 100px;
 }
 .main-container {
   background-color: #ffffff;
