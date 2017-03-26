@@ -34,17 +34,19 @@ body {
 	font-size: 17px;
 }
 .rzzt-body-container {
+	vertical-align: top;
 	position: relative;
 	top: 145px;
-	width: 74%;
+	width: auto;
 	margin-left: 10px;
 }
 .rzzt-body div {
+	vertical-align: top;
 	display:inline-block;
 	margin-right:30px;
 }
 .rzzt-body-intro { display:none; min-width: 300px; width:75% }
-.rzzt-body { display:none; margin-left: 50px; }
+.rzzt-body { display:none; margin-left: 50px; vertical-align: top; }
 
 .main-container {
   background: -webkit-gradient(linear, left top, right top, color-stop(24.8%,#000000), color-stop(24.9%,#000000));
