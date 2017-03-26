@@ -49,10 +49,10 @@ body {
 	cursor:pointer;
 	display:inline-block;
 }
-.right-block-icon-item1 { background: url(../taskhive_mini.png) no-repeat cover; }
-.right-block-icon-item1:hover { background: url(../taskhive_color_mini.png) no-repeat cover; }
-.right-block-icon-item2 { background: url(../cryptogram_mini.png) no-repeat cover; }
-.right-block-icon-item2:hover { background: url(../cryptogram_color_mini.png) no-repeat cover; }
+.right-block-icon-item1 { background: url(../taskhive_mini.png) no-repeat; background-size: 80px 76px; }
+.right-block-icon-item1:hover { background: url(../taskhive_color_mini.png) no-repeat; background-size: 80px 76px; }
+.right-block-icon-item2 { background: url(../cryptogram_mini.png) no-repeat; background-size: 80px 76px; }
+.right-block-icon-item2:hover { background: url(../cryptogram_color_mini.png) no-repeat; background-size: 80px 76px; }
 
 .right-block-icons-container {
         display:none;
