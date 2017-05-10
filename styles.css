@@ -7,6 +7,7 @@ body {
 header {
 	background-color: black;
 	width: 100%;
+	margin-bottom: 4em;
 }
 
 #logo {
