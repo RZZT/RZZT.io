@@ -44,6 +44,14 @@ footer {
 	background-color: black;
 }
 
+footer a {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
+
 .content {
 	max-width: 500px;
 	margin-left: auto;
