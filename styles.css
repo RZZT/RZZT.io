@@ -36,7 +36,7 @@ h2, h3 {
 }
 
 h3 {
-  margin-top: 2em;
+  margin: 1em 0em 1em 0em;
 }
 
 section, footer {
@@ -61,6 +61,10 @@ footer a:visited {
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.flex-contact-box p {
+  margin: 0;
 }
 
 @media only screen and (min-width: 500px) {
