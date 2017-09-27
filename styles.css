@@ -12,7 +12,7 @@ body {
 }
 
 header {
-	background-color: black;
+	background-color: #000000;
 	width: 100%;
 	margin-bottom: 4em;
 }
@@ -40,16 +40,16 @@ section, footer {
 
 footer {
 	text-align: center;
-	color: white;
-	background-color: black;
+	color: #FFFFFF;
+	background-color: #000000;
 }
 
 footer a {
-	color: white;
+	color: #FFFFFF;
 }
 
 footer a:visited {
-	color: white;
+	color: #FFFFFF;
 }
 
 .content {
@@ -59,11 +59,11 @@ footer a:visited {
 }
 
 section:nth-child(even) h2 {
-	color: gray;
+	color: #7C7C7C;
 }
 
 section:nth-child(odd) {
-	color: white;
+	color: #FFFFFF;
 }
 
 section:nth-child(odd) {
