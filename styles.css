@@ -49,12 +49,17 @@ footer {
 	background-color: #000000;
 }
 
-footer a {
-	color: #FFFFFF;
+a {
+	color: #ff9900;
+  text-decoration: none;
 }
 
-footer a:visited {
-	color: #FFFFFF;
+a:visited {
+	color: #ff9900;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .content {
@@ -63,38 +68,13 @@ footer a:visited {
 	margin-right: auto;
 }
 
-.flex-contact-box p {
-  margin: 0;
-}
-
-@media only screen and (min-width: 500px) {
-  .flex-contact {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .flex-contact-box {
-    flex-grow: 1;
-    flex-basis: 0;
-  }
-
-  .flex-contact-box:first-child {
-    margin-right: 20px;
-  }
-
-  .flex-contact-box:last-child {
-    margin-left: 40px;
-  }
-}
-
 section:nth-child(even) h2 {
 	color: #7C7C7C;
 }
 
 section:nth-child(odd) {
 	color: #FFFFFF;
-}
-
-section:nth-child(odd) {
-	background-color: #ff9900;
+	background-color: #000000;
+  border-top: 20px solid #ff9900;
+  border-bottom: 20px solid #ff9900;
 }
