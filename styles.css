@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(Open-Sans.woff2) format('woff2')
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(Open-Sans.woff2) format('woff2')
 }
 
 body {
@@ -15,14 +15,14 @@ header {
 	background-color: #000000;
 	width: 100%;
 	margin-bottom: 4em;
-  padding: 1em 0em 1em 0em;
+    padding: 1em 0em 1em 0em;
 }
 
 #logo {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-  max-width: 100%;
+    max-width: 100%;
 	width: 500px;
 }
 
@@ -32,9 +32,9 @@ p {
 }
 
 .subtitle {
-  text-align: center;
-  margin: 0;
-  display: block;
+    text-align: center;
+    margin: 0;
+    display: block;
 }
 
 h2, h3 {
@@ -44,14 +44,14 @@ h2, h3 {
 }
 
 h3, footer p {
-  margin: 0em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
 }
 
 .project-heading {
-  border-top: 1px solid #7C7C7C;
-  border-bottom: 1px solid #7C7C7C;
-  margin-top: 2em;
-  padding: 0.5em;
+    border-top: 1px solid #7C7C7C;
+    border-bottom: 1px solid #7C7C7C;
+    margin-top: 2em;
+    padding: 0.5em;
 }
 
 section, footer {
@@ -64,7 +64,7 @@ footer {
 
 a {
 	color: #ff9900;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:visited {
@@ -72,7 +72,7 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .content {
@@ -85,9 +85,13 @@ section:nth-child(even) h2 {
 	color: #7C7C7C;
 }
 
-section:nth-child(odd) {
+section:nth-child(odd), footer:nth-child(odd) {
 	color: #FFFFFF;
 	background-color: #000000;
-  border-top: 20px solid #ff9900;
-  border-bottom: 20px solid #ff9900;
+    border-top: 20px solid #ff9900;
+    border-bottom: 20px solid #ff9900;
+}
+
+footer:last-child {
+    border-bottom: none;
 }
