@@ -139,7 +139,8 @@ a:visited {
 .under-construction {
     width: 100%;
     background-image: url(https://rzzt.io/images/under_construction.jpg);
-    min-height: calc(100vh - 300px);
+    height: 600px;
+    margin-bottom: -10px;
     background-position: center left;
     background-size: cover;
 }
