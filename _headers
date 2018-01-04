@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
   Public-Key-Pins: pin-sha256="sRHdihwgkaib1P1gxX8HFszlD+7/gTfNvuAybgLPNis="; pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="; pin-sha256="C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M="; max-age=7776000; includeSubDomains
   Referrer-Policy: no-referrer
-  Content-Security-Policy: script-src 'self'; img-src 'self'; default-src 'self'; child-src http://webchat.freenode.net/?channels=%23RZZT&uio=MTM9dHJ1ZQa9; style-src 'self'; connect-src 'self'; object-src 'none'; media-src 'none'; form-action 'none';
+  Content-Security-Policy: script-src 'self'; img-src 'self'; default-src 'self'; child-src http://webchat.freenode.net; style-src 'self'; connect-src 'self'; object-src 'none'; media-src 'none'; form-action 'none';
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
