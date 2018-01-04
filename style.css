@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://rzzt.io/Open-Sans.woff2) format('woff2')
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 40px;
+}
+
+.logo-box {
+    text-align: right;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo:hover #_1012860774416 polygon {
+    fill: #ff9900;
+}
+
+.wrapper {
+    min-height: 576px;
+}
+
+section {
+    padding: 40px 40px 40px 200px;
+}
+
+.page-heading {
+    margin: 0 0 1em 0;
+}
+
+.section-heading {
+    margin: 0;
+	font-weight: normal;
+	color: #7C7C7C;
+}
+
+.section-wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 120px;
+    padding: 80px 40px 80px 40px;
+    margin-top: 10px;
+}
+
+a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ff9900
+}
+
+.sidebar-left {
+    width: 150px;
+    padding-right: 20px;
+    position: absolute;
+    top: 140;
+    bottom: 0;
+}
+
+.list-heading {
+    padding: 0.5em;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.officer-list {
+    list-style-type: none;
+}
+
+.officer-list li {
+    margin: 0.5em;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-bottom: 10px;
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    box-shadow: 5px 5px 10px #888888;
+    width: 140px;
+}
+
+.nav-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.current-page {
+    background-color: #ff9900 !important;
+    width: 140px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.payment-methods {
+    margin-bottom: 1em;
+}
+
+.payment-icon {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.under-construction {
+    width: 100%;
+    background-image: url(https://rzzt.io/images/under_construction.jpg);
+    min-height: calc(100vh - 300px);
+    background-position: center left;
+    background-size: cover;
+}
+
+.menu-icon {
+    display: none;
+    height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+
+    section {
+        padding: 40px;
+    }
+
+    .menu-icon {
+        display: inline;
+        position: absolute;
+        top: 40;
+        left: 40;
+    }
+
+    .menu-icon:hover ~ .sidebar-left {
+        display: block;
+    }
+
+    .sidebar-left {
+        display: none;
+        width: 100%;
+        padding-right: 20px;
+        position: absolute;
+        top: 130;
+    }
+
+    .sidebar-left:hover {
+        display: block;
+    }
+
+    .nav-menu {
+        border-bottom: 5px solid black;
+    }
+
+    .nav-menu li {
+        margin: 0;
+    width: 100%;
+    }
+
+    .nav-menu li a {
+        color: black;
+        background-color: white;
+        text-align: left;
+        width: 100%;
+    }
+
+    .nav-menu li a:hover {
+        background-color: #888888;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .nav-menu li:last-child {
+        margin-bottom: 0;
+    }
+
+    .current-page {
+        box-shadow: none;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .payment-icon {
+        display: block;
+        margin: 2em 0 2em 0;
+    }
+}
